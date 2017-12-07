@@ -1,0 +1,22 @@
+{
+  "name": "skol",
+  "version": "0.1.0",
+  "authors": [
+    "David Camacho Sanchez"
+  ],
+  "description": "Skeletor bootstrap framework",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+	"assets/vendors/",
+    "lib/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+  }
+}

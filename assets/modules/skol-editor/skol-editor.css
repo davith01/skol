@@ -1,0 +1,135 @@
+[skol-form],
+[skol-select-group],
+[skol-button]{
+	border: 2px solid red
+}
+
+
+.bootstrap-tagsinput {
+    width: 100%;
+}
+
+.tag {
+    line-height: 1;
+    color: #fff !important;
+}
+.tag.skol-success {
+    background: #1ABB9C;
+}
+.tag.skol-primary {
+    background: #337ab7;
+}
+.tag.skol-info {
+    background: #5bc0de;
+}
+.tag.skol-warning {
+    background: #f0ad4e;
+}
+.tag.skol-danger {
+    background: #ac2925;
+}
+.tag.skol-dark {
+    background: #394D5F;
+}
+.tag:after {
+    content: " ";
+    height: 30px;
+    width: 0;
+    position: absolute;
+    left: 100%;
+    top: 0;
+    margin: 0;
+    pointer-events: none;
+    border-top: 14px solid transparent;
+    border-bottom: 14px solid transparent;
+    border-left: 11px solid #1ABB9C
+}
+
+span.tag {
+    display: block;
+    float: left;
+    padding: 5px 9px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    font-family: helvetica;
+}
+span.tag a {
+    color: #F1F6F7 !important
+}
+.tagsinput span.tag a {
+    font-weight: bold;
+    color: #82ad2b;
+    text-decoration: none;
+    font-size: 11px
+}
+.tagsinput input {
+    width: 80px;
+    margin: 0px;
+    font-family: helvetica;
+    font-size: 13px;
+    border: 1px solid transparent;
+    padding: 3px;
+    background: transparent;
+    color: #000;
+    outline: 0px
+}
+.tagsinput div {
+    display: block;
+    float: left
+}
+.tags_clear {
+    clear: both;
+    width: 100%;
+    height: 0px
+}
+
+.twitter-typeahead .tt-query,
+.twitter-typeahead .tt-hint {
+    margin-bottom: 0;
+}
+
+.twitter-typeahead .tt-hint
+{
+    display: none;
+}
+
+.tt-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    list-style: none;
+    font-size: 14px;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+    background-clip: padding-box;
+    cursor: pointer;
+}
+
+.tt-suggestion {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: normal;
+    line-height: 1.428571429;
+    color: #333333;
+    white-space: nowrap;
+}
+
+.tt-suggestion:hover,
+.tt-suggestion:focus {
+  color: #ffffff;
+  text-decoration: none;
+  outline: 0;
+  background-color: #428bca;
+}
+

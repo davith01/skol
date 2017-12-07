@@ -1,0 +1,21 @@
+{  
+   "name":"region",
+   "alias":"departamento",
+   "columns":[  
+      {  
+         "name":"code",
+         "type":"VARCHAR(15)",
+         "attr":"PRIMARY KEY"
+      },
+      {  
+         "name":"name",
+		 "alias":"nombre departamento",
+         "type":"VARCHAR(255)"
+      },
+	  {  
+         "name":"idCountry",
+		 "alias":"código país",
+         "type":"INT"
+      }
+   ]
+}

@@ -1,0 +1,5 @@
+{  
+   "name":"region_city",
+   "alias":"Lista de ciudades por departamento",
+   "join": "INNER JOIN"
+}

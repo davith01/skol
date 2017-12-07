@@ -1,0 +1,17 @@
+{  
+   "name":"country",
+   "alias":"pais",
+   "columns":[  
+      {  
+         "name":"code",
+		 "alias": "código país",
+         "type":"INT",
+         "attr":"PRIMARY KEY"
+      },
+      {  
+         "name":"name",
+		 "alias":"nombre país",
+         "type":"VARCHAR(255)"
+      }
+   ]
+}

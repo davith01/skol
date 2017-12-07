@@ -1,0 +1,21 @@
+{  
+   "name":"city",
+   "alias":"ciudad",
+   "columns":[  
+      {  
+         "name":"code",
+         "type":"VARCHAR(15)",
+         "attr":"PRIMARY KEY"
+      },
+      {  
+         "name":"name",
+		 "alias":"nombre de ciudad",
+         "type":"VARCHAR(255)"
+      },
+	  {  
+         "name":"idRegion",
+		 "alias":"código departamento",
+         "type":"VARCHAR(15)"
+      }
+   ]
+}

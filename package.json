@@ -1,0 +1,22 @@
+{
+  "name": "Skol",
+  "version": "0.1.0",
+  "description": "Skeletor entity framework",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "chat",
+    "expressjs",
+    "nodejs",
+	"angular",
+	"bootstrap",
+	"dashboard"
+  ],
+  "author": "David Camacho Sanchez",
+  "license": "MIT",
+  "dependencies": {
+    
+  }
+}
