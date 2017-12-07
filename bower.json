@@ -12,11 +12,19 @@
   "ignore": [
     "**/.*",
     "node_modules",
-	"assets/vendors/",
+    "assets/vendors/",
     "lib/",
     "test",
     "tests"
   ],
   "dependencies": {
+    "angular": "^1.6.7",
+    "angular-route": "^1.6.7",
+    "bootstrap": "^3.3.7",
+    "bootstrap-tag": "^0.0.1",
+    "fastclick": "^1.0.6",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.2.1",
+    "nprogress": "^0.2.0"
   }
 }

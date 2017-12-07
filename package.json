@@ -10,13 +10,18 @@
     "chat",
     "expressjs",
     "nodejs",
-	"angular",
-	"bootstrap",
-	"dashboard"
+    "angular",
+    "bootstrap",
+    "dashboard"
   ],
   "author": "David Camacho Sanchez",
   "license": "MIT",
   "dependencies": {
-    
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "fine-uploader": "^5.15.4",
+    "multer": "^1.3.0",
+    "swig": "^1.4.2"
   }
 }
